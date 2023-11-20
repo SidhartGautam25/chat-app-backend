@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "chat-pjyxzhrh2-sidhartgautam25.vercel.app",
+    origin: "https://chat-app-kappa-blush.vercel.app/",
     methods: ["GET", "POST"],
   },
 });
